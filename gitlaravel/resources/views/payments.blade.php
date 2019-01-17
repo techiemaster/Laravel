@@ -28,9 +28,7 @@
 
     <div class="row topbox">
         <div class="col-lg-12">
-            <div class="whitebox">
-                <p class="page-header">Welcome Parekoy</p>
-            </div>
+            <p class="page-header">Payments</p>
         </div>
          
 

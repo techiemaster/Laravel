@@ -528,3 +528,21 @@ table.dataTable thead .sorting:after {
 .nav i{
   color:#424770;
 }
+.sidebar ul li a.active {
+     background-color: transparent; 
+    color: #556cd6;
+    font-weight: 700;
+}
+.whitebox{
+  font-size: 24px;
+    color: #424770;
+    font-weight: 400;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, 0.1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+}
+.whitebox p{
+  font-size: 24px!important;
+    font-weight: 400!important;
+}
