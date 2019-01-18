@@ -21,3 +21,33 @@ Route::get('my-users', 'HomeController@myUsers');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+// ===============================================
+    // STATIC PAGES ==================================
+    // ===============================================
+
+    // about page (app/views/about.blade.php)
+    Route::get('about', function()
+    {
+        return View::make('about');
+    });
+
+    Route::get('customers', function()
+    {
+        return View::make('customers');
+    });
+    Route::get('payments', function()
+    {
+        return View::make('payments');
+    });
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

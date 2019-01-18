@@ -8,41 +8,28 @@
 
             <li>
 
-                <a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="{{ url('home') }}"><i class="fas fa-home"></i> Home</a>
+
+            </li>
+            <li>
+
+                <a href="{{ url('payments') }}"><i class="far fa-credit-card"></i> Payments</a>
 
             </li>
 
             <li>
 
-                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-
-                <ul class="nav nav-second-level">
-
-                    <li>
-
-                        <a href="flot.html">Flot Charts</a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="morris.html">Morris.js Charts</a>
-
-                    </li>
-
-                </ul>
-
-                <!-- /.nav-second-level -->
+                <a href="{{ url('about') }}"><i class="fa fa-bar-chart-o fa-fw"></i> About</a>
 
             </li>
 
             <li>
 
-                <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                <a href="{{ url('customers')}}"><i class="fa fa-user fa-fw"></i> Customers</a>
 
             </li>
 
-            <li>
+            <!-- <li>
 
                 <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
 
@@ -60,13 +47,13 @@
 
                     </li>
 
-                </ul>
+                </ul> -->
 
                 <!-- /.nav-second-level -->
 
-            </li>
+            <!-- </li> -->
 
-            <li>
+            <!-- <li>
 
                 <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
 
@@ -85,10 +72,10 @@
                     </li>
 
                 </ul>
-
+ -->
                 <!-- /.nav-second-level -->
 
-            </li>
+            <!-- </li> -->
 
         </ul>
 
