@@ -15,3 +15,9 @@
     float: right!important;
     margin-top: 30px;
 }
+
+.logo-area a{
+	color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+}

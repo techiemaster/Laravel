@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/front', function () {
+    return view('front');
+});
+
 Route::resource('posts','PostController');
 Route::resource('customers','CustomerController');
 
